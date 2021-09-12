@@ -21,7 +21,7 @@ Watch [this](https://www.youtube.com/watch?v=bZNAFkkUeKs&ab_channel=Devslopes) v
 ## Step 2: Add the logic
 * Connect both your button and your label to your designated view controller 
 * Make your button change the `text` of the label whenever it's clicked. To change the text of the button run something like this: `button.setTitle("Turn Blue", for:.normal)`
-* For extra credit change the color of the `UILabel` to reflect the color of the word at the time
+* For extra credit in my heart, change the color of the `UILabel` to reflect the color of the word at the time
 
 # Part 2: UIView Lifecycle methods
 No submission is required for this part of the tutorial. Be prepared to discuss it in class. 
