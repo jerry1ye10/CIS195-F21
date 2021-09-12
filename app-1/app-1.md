@@ -5,7 +5,6 @@ Please leave feedback by creating a GitHub issue or by posting on Piazza.
 **Expected Duration:** 2 hours
 
 
-**Deadline:** Friday, January 29th at lecture time
 
 - - - -
 
