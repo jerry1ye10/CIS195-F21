@@ -26,7 +26,6 @@ Watch [this](https://www.youtube.com/watch?v=bZNAFkkUeKs&ab_channel=Devslopes) v
 # Part 2: UIView Lifecycle methods
 No submission is required for this part of the tutorial. Be prepared to discuss it in class. 
 ## View Controller Life Cycle
-
 ![](/tutorials/tutorial-1/assets/fig1.png?raw=true)
 
 Any non-trivial iPhone app will have multiple screens. Those screens may appear and disappear many times while the app is running. It's important to "hook in" to this life cycle, and perform specific actions at specific times.
@@ -47,7 +46,6 @@ You should understand the following:
 * Apps have a predicted life cycle, governed by the different methods inside `AppDelegate`.
 * View Controllers have a predicted life cycle, governed by the different life cycle methods in that view controller. Why is this important? You will want to make certain things happen in your app that will be require the view to be loaded, the view to actually appear (make sure you understand the distinction), disappear etc. **Having a firm grasp of this life cycle will make you write less buggy code, and make debugging much easier.**
 * The life cycle methods provide predictable structure that stems directly from the way the iPhone loads and renders applications. These methods were provided to give iOS apps a way to react to "hook into" milestones in the life of the program.
-
 ### Do the following
 * Open Xcode and create a new Single View Application. Name it whatever you like.
 * Open `ViewController.swift` and examine the methods that were automatically included in the file.
