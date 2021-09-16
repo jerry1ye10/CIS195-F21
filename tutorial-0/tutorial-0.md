@@ -32,9 +32,7 @@ For example: when the view loads, we may want to make an API request. When the v
 
 In general, you'll use the "Life Cycle" methods heavily to control your app.
 
-Read: [Understand the View Controller Lifecycle](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/WorkWithViewControllers.html). Stop at “Add a Meal Photo.”
-
-Watch from 00:00 to 10:00: [Stanford - View Controller Life Cycle](https://www.youtube.com/watch?v=tLsPoVDXDG8&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq&index=10)
+Read: [What's the lifecycle of a viewcontroller](https://levelup.gitconnected.com/what-is-the-life-cycle-of-a-uiviewcontroller-in-swift-56d2b8ebaf48)
 
 *Optional reading: Similarly, apps have a life cycle too. Certain events happen to every app: app gets opened, app finished loading, app exited etc. [This article](https://medium.com/@neroxiao/ios-app-life-cycle-ec1b31cee9dc) describes the possible states your app can flow through. Don't worry if you don't understand everything on these diagrams - they're quite dense.*
 You should understand the following:
