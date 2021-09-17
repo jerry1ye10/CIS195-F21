@@ -15,7 +15,7 @@ This assignment has 2 parts. Part A covers the interface and app structure, and 
 * Learn about interface builder and swift
 * Get familiar with UIViewController, UIButton, UILabel, and UIView
 
-![](/apps/app-2/assets/fig1.png?raw=true)
+![](/app-2/assets/fig1.png?raw=true)
 
 ## Topics
 
@@ -48,7 +48,7 @@ This assignment has 2 parts. Part A covers the interface and app structure, and 
 
 ## Step 1: Import assets
 * Using the file menu on the left, open `Assets.xcassets`.
-* Download the image assets from [this link](/apps/app-2/assets/app-2-assets.zip) (click 'download').
+* Download the image assets from [this link](/app-2/assets/app-2-assets.zip) (click 'download').
 * There will be 3 image files for each symbol -- this is to account for different iPhone screen resolutions. [More info if you're curious.](https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/image-size-and-resolution/).
 * Drag all 9 of the image files into your assets file; this is called an "Asset Catalog".
 
