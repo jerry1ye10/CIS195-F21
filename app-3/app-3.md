@@ -3,8 +3,6 @@
 Please leave feedback by creating a GitHub issue or by posting on Piazza.
 Remember -- Stack Overflow and Google are encouraged, but DO NOT copy code. Ideas may be discussed with classmates, but don't work together.
 
-While the last app had 2 parts, this app only has 1.
-
 **Expected Duration:** 1+ hours.
 
 
@@ -17,7 +15,7 @@ While the last app had 2 parts, this app only has 1.
 * Learn about taking text input from UIAlertController
 * Implement advanced table view behavior like swipe-to-delete
 
-![](/apps/app-3/assets/fig1.png?raw=true)
+![](/app-3/assets/fig1.png?raw=true)
 
 In this app, we'll implement a "newsfeed" of posts. Users will be able to add new posts, and they'll display with the most recent posts at the top. Users can also favorite posts and swipe-to-delete posts. 
 
@@ -40,16 +38,16 @@ We'll use this project to gain experience using table views. In this project, yo
 
 # Part 1: Table View
 ## Step 0: Import the template code
-* Dowload and unzip the [starter code](/apps/app-3/assets/app-3-starter.zip). I'm aware this xcode project is named "app2", but it's a bit difficult to change project names after the fact.
+* Dowload and unzip the [starter code](/app-3/assets/app-3-starter.zip). I'm aware this xcode project is named "app2", but it's a bit difficult to change project names after the fact.
 * Look through what has already been done for you. The storyboard contains a UITableViewController that has already been linked to `NewsfeedTableViewController.swift`. The *Asset catalog* contains 2 images, for each star state. Finally, a `NewsItem.swift` file has been created for you.
 * Make sure the app compiles and runs.
 
 ## Step 1: Navigation bar and "+" button
 * Go to `Main.storyboard` and select the TableViewController (click the yellow dot).
 * On the top menu, select "Editor > Embed In.. > Navigation Controller" like so:
-![](/apps/app-3/assets/fig2.png?raw=true)
+![](/app-3/assets/fig2.png?raw=true)
 * Now open the object library and search "BarButtonItem". Drag this object into the *right side* of the navigation bar at the top of your UITableViewController. Configure the bar button item to use the "Add" system item. Your app should now look like this:
-![](/apps/app-3/assets/fig3.png?raw=true)
+![](/app-3/assets/fig3.png?raw=true)
 * Now we need to hook up the Add button to an IBAction - this action has already been defined in code for you. Just right-click-drag from the Add Button to the UITableViewController and select the "didSelectAdd:" method.
 * Make sure this connection works - add a `print` statement inside the IBAction function in `NewsfeedTableViewController.swift`, and make sure it prints when you click the "+" button.
 
@@ -61,7 +59,7 @@ We'll use this project to gain experience using table views. In this project, yo
 * Set the cell label text a larger typeface that looks nice. The screenshot uses "System Thin 32". The label should span most of the cell so that text is not clipped. *Give the label a "tag" value to identify it inside cellForRowAt*.
 * Set the cell image view size to a reasonable size. *Give the image view a "tag" value to identify it inside cellForRowAt*.
 * At this point, your storyboard should look like this:
-![](/apps/app-3/assets/fig4.png?raw=true)
+![](/app-3/assets/fig4.png?raw=true)
 
 ## Step 3: NewsItem
 * Go to `NewsItem.swift`.
