@@ -14,7 +14,7 @@ Please leave feedback by creating a GitHub issue or by posting on Piazza.
 ## An Introduction to Segues
 Let’s kick off this tutorial with a brief explanation of what segues are, and how they work in iOS.
 
-Watch [this video](https://www.youtube.com/watch?v=5B5IRK9wYjI&index=8&list=PLPA-ayBrweUzGFmkT_W65z64MoGnKRZMq) from 15:38 to 25:00 for understanding segues. Continue the video for an implementation example (2x recommended).
+Watch [this video](https://www.youtube.com/watch?v=DxCydBmOqXU) for understanding segues. Continue the video for an implementation example (2x recommended).
  
 ## Types and Use Cases of Basic Segues
 Now that we have an idea of what segues are, let’s look at the types of segues that exist in XCode, and when are possible uses cases of each one.
