@@ -25,7 +25,8 @@ This app will have less guided instruction than previous ones; the final app wil
 
 ## Getting Started
 * Pick any api from this list of public and free apis: https://github.com/public-apis/public-apis
-* As a note, api's with "OAuth" authentication are significantly harder to work with. I wouldn't recommend working with them but kudos to you if you do 
+* As a note, api's with "OAuth" authentication are significantly harder to work with. I wouldn't recommend working with them but kudos to you if you do
+* Some APIs like MapBox may not return any data. Please carefully select which API you choose to work with as some won't work and some are much much harder to work with than others 
 
 ## Milestone 1 Technical Requirements 
 * Connect to your API using URLSession
